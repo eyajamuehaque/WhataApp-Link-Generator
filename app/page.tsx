@@ -11,7 +11,6 @@ export default function Home() {
 
       <div className="relative z-10 container mx-auto px-4 py-12 md:py-20">
         <div className="mx-auto max-w-4xl">
-          {/* Header */}
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-green-500/20 via-emerald-500/20 to-teal-500/20 border border-green-500/30 px-4 py-1.5 text-sm font-medium text-green-400 shadow-lg shadow-green-500/20">
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -28,10 +27,10 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Generator Component */}
+         
           <WhatsAppGenerator />
 
-          {/* Features */}
+         
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             <div className="group relative overflow-hidden rounded-xl border border-green-500/30 bg-gradient-to-br from-slate-900/90 to-green-950/50 p-6 backdrop-blur-sm transition-all hover:border-green-500/50 hover:shadow-xl hover:shadow-green-500/20">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-green-500/20 to-emerald-500/20 shadow-lg shadow-green-500/20">
@@ -51,7 +50,6 @@ export default function Home() {
                 Skip the hassle of saving contacts. Generate links that open WhatsApp chats instantly.
               </p>
             </div>
-
             <div className="group relative overflow-hidden rounded-xl border border-purple-500/30 bg-gradient-to-br from-slate-900/90 to-purple-950/50 p-6 backdrop-blur-sm transition-all hover:border-purple-500/50 hover:shadow-xl hover:shadow-purple-500/20">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-purple-500/20 to-pink-500/20 shadow-lg shadow-purple-500/20">
                 <svg
